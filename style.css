@@ -22,11 +22,18 @@ h1{
     
 }
 
-
 .top-bannar{
-   
-    background-image: url("imags/1.png");
-    
-
-  
-  
+    background-image:url("imags/1.png") ;
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding: 00px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+}
